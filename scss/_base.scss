@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+    --primary-dark: #113154;
+    --primary: #e1f4fd;
+    --primary-light: #f8fffd;
+}
+
+.subheader {
+    background-color: var(--primary);
+}
+
+* {
+    color: var(--primary-dark) !important;
+}
+
+header {
+    font-family: "Titillium Web", sans-serif;
+}
+
+main {
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.border-primary {
+    color: var(--primary-dark) !important;
+}
+
+.btn-primary,
+.btn-primary i {
+    background-color: var(--primary-dark) !important;
+    color: white !important;
+}
+
+.btn-primary,
+.border-primary {
+    border: 1px solid var(--primary-dark) !important;
+}
+
+#nav-buttons .btn {
+    font-size: 20px;
+    padding: 8px 16px;
+}

@@ -1,0 +1,54 @@
+svg {
+    g {
+        cursor: pointer;
+
+        &:hover path {
+            fill: #81dbf8;
+        }
+
+        &.previous path{
+            fill: #178545;
+        }
+
+        &.current path{
+            fill: #0F506B;
+        }
+    }
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.tip {
+    display: flex;
+    align-items: center;
+    color: #446ab8 !important;
+    gap: 4px;
+}
+
+.tip-icon {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.0002 7.68945C11.641 7.68945 11.3521 7.97844 11.3521 8.33761V9.86848C11.3521 10.2276 11.641 10.5166 12.0002 10.5166C12.3539 10.5166 12.6484 10.2255 12.6484 9.86848V8.33761C12.6484 7.9806 12.3539 7.68945 12.0002 7.68945ZM10.3521 8.33761C10.3521 7.42615 11.0888 6.68945 12.0002 6.68945C12.9018 6.68945 13.6484 7.42399 13.6484 8.33761V9.86848C13.6484 10.7821 12.9018 11.5166 12.0002 11.5166C11.0888 11.5166 10.3521 10.7799 10.3521 9.86848V8.33761Z' fill='%23446AB8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 3.62744C12.2761 3.62744 12.5 3.8513 12.5 4.12744V7.18918C12.5 7.46532 12.2761 7.68918 12 7.68918C11.7239 7.68918 11.5 7.46532 11.5 7.18918V4.12744C11.5 3.8513 11.7239 3.62744 12 3.62744Z' fill='%23446AB8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.7991 14.9513V9.04921C16.7991 6.39868 14.6504 4.25 11.9999 4.25C9.34936 4.25 7.20068 6.39868 7.20068 9.04921V14.9513C7.20068 17.6018 9.34936 19.7505 11.9999 19.7505C14.6504 19.7505 16.7991 17.6018 16.7991 14.9513ZM11.9999 3.25C8.79708 3.25 6.20068 5.84639 6.20068 9.04921V14.9513C6.20068 18.1541 8.79708 20.7505 11.9999 20.7505C15.2027 20.7505 17.7991 18.1541 17.7991 14.9513V9.04921C17.7991 5.84639 15.2027 3.25 11.9999 3.25Z' fill='%23446AB8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.8726 10.8525H6.81006V9.85254H10.8726V10.8525Z' fill='%23446AB8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.2109 10.8525H13.1484V9.85254H17.2109V10.8525Z' fill='%23446AB8'/%3E%3C/svg%3E%0A");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.obs{
+    background-color: var(--primary);
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.circle{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
