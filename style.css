@@ -83,15 +83,24 @@ svg g.previous path {
   fill: #178545;
 }
 svg g.current path {
-  fill: #0F506B;
+  fill: #0f506b;
 }
 
-.card-body {
+.card-main-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px;
   gap: 16px;
+}
+
+.card-item {
+  max-width: 440px;
+  position: absolute;
+}
+.card-item .card-title {
+  color: var(--primary-dark) !important;
+  font-weight: 500;
 }
 
 .tip {
@@ -121,6 +130,55 @@ svg g.current path {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+#item-1 {
+  top: 5%;
+}
+
+#item-2 {
+  top: 10%;
+  right: 0;
+}
+
+#item-3 {
+  top: 25%;
+  right: 0;
+  width: 25%;
+}
+
+#item-4 {
+  top: 62.5%;
+  right: 0;
+  width: 30%;
+}
+
+#item-5 {
+  top: 75%;
+  right: 5%;
+}
+
+#item-6 {
+  top: 75%;
+  left: 5%;
+}
+
+#item-7 {
+  top: 62.5%;
+  left: 0;
+  width: 30%;
+}
+
+#item-8 {
+  top: 25%;
+  left: 0;
+  width: 25%;
+}
+
+#item-9 {
+  top: 10%;
+  left: 0;
 }
 
 footer {
